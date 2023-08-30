@@ -2,7 +2,7 @@ import mitsuba as mi
 
 mi.set_variant('scalar_rgb')
 
-scene = mi.load_file("./scenes/cbox.xml")
+scene = mi.load_file("../scenes/cbox.xml")
 
 image = mi.render(scene, spp=256)
 
